@@ -12,9 +12,10 @@
 - NodeMCU Amica ESP8288 / NodeMCU Lolin ESP8266.
 - Micro USB Data.
 
-### 1.Untuk menginstall ikuti langkah berikut: 
+### 1. Untuk menginstall ikuti langkah berikut: 
 - Buka Arduino IDE.
 - Sambungkan Node MCU dan Kabel USB ke Port USB di port USB .
+- Buka file absensi-rfid.ino [File](https://github.com/pptik/absensi-rfid-2021/blob/main/absensi-rfid/ConfigFile.ino), Pastikan dalam satu folder ada file [Configfile.ino](https://github.com/pptik/absensi-rfid-2021/blob/main/absensi-rfid/ConfigFile.ino) dan [Config.h](https://github.com/pptik/absensi-rfid-2021/blob/main/absensi-rfid/config.h).
 - Import Library yang telah disiapkan  atau download di [Download Library]( https://github.com/pptik/absensi-rfid-2021/tree/main/Library).
 - Pilih Board yang akan di install di Arduino IDE
     > Tools -> Board -> Esp8266 Modules -> NodeMCU 1.0 (ESP-12E Module).

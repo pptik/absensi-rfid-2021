@@ -33,3 +33,4 @@
     > Buka browser -> Input ip 192.168.4.1 -> Tekan Configure Wifi -> Pilih SSID Wifi yang akan digunakan -> masukan password wifi -> Save.
 - Jika sudah bersuara beep wifi sudah terhubung.
 - Jika suara beep bersuara terus menerus wifi terhubung namun tidak ada koneksi internet. **Jadi pastikan _wifi terhubung dengan internet_**.
+- Tempelkan kartu RFID jika ada suara beep 2x berarti data sudah berhasil dikirimkan ke server.

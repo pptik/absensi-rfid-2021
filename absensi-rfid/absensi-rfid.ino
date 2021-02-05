@@ -103,7 +103,6 @@ void reconnect() {
     if (client.connect(MAC_char, mqtt_user, mqtt_password)) {
       Serial.println("connected");
       digitalWrite(LED1, HIGH);
-      client.publish(mqtt_keywords1, MAC_char);
       client.subscribe(mqtt_keywords2);
     } else {
       Serial.print("failed, rc=");

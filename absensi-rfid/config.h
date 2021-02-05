@@ -3,7 +3,6 @@
 #define __CONFIGFILE__
 //flag for saving data
 bool shouldSaveConfig = true;
-// PPTIK Setting
 char wifi_ssid[34] = "LSKKHomeAuto";
 char wifi_password[34] = "1234567890";
 char mqtt_server[40] = "cloudabsensi.pptik.id";

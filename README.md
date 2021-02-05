@@ -16,7 +16,8 @@
 - Buka arduino ide
 - Sambungkan Node MCU dan Kabel USB ke Port USB di port USB 
 - Import Library yang telah disiapkan  atau download di [Download Library]( https://github.com/pptik/absensi-rfid-2021/tree/main/Library).
-- Pilih Board yang akan di install di Arduino IDE > tools -> Board -> Esp8266 Modules -> NodeMCU 1.0 (ESP-12E Module)
+- Pilih Board yang akan di install di Arduino IDE
+> tools -> Board -> Esp8266 Modules -> NodeMCU 1.0 (ESP-12E Module)
 - Pilih upload speed di Arduino IDE tools -> Upload Speed -> 115200
 - Tekan Ctrl+U untuk upload
 - Tunggu hingga DOne uploading

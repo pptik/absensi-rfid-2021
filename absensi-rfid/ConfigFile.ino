@@ -1,6 +1,5 @@
 #include "config.h"
 
-//callback notifying us of the need to save config
 void saveConfigCallback () {
   Serial.println("Should save config");
   shouldSaveConfig = true;
@@ -8,14 +7,11 @@ void saveConfigCallback () {
 
 void ReadConfigFile()
 {
-    //read configuration from FS json
   Serial.println("mounting FS...");
 
   if (SPIFFS.begin()) {
     Serial.println("mounted file system");
     if (SPIFFS.exists("/config.json")) {
-      //SPIFFS.remove("/config.json");
-      //file exists, reading and loading
       Serial.println("reading config file");
       File configFile = SPIFFS.open("/config.json", "r");
       if (configFile) {
@@ -38,8 +34,6 @@ void ReadConfigFile()
           strcpy(mqtt_password, json["mqtt_password"]);
           strcpy(mqtt_keywords1, json["mqtt_keywords1"]);
           strcpy(mqtt_keywords2, json["mqtt_keywords2"]);
-
-
         } else {
           Serial.println("failed to load json config");
         }
@@ -48,7 +42,6 @@ void ReadConfigFile()
   } else {
     Serial.println("failed to mount FS");
   }
-  //end read
 }
 
 String IpAddress2String(const IPAddress& ipAddress)
@@ -88,10 +81,8 @@ void SaveConfigFile()
 
 void ResetSettings()
 {
-        WiFiManager wifiManager;
-        wifiManager.resetSettings();
-        delay(2000);
-        ESP.restart();
+   WiFiManager wifiManager;
+   wifiManager.resetSettings();
+   delay(2000);
+   ESP.restart();
 }
-
-

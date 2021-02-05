@@ -146,7 +146,7 @@ void loop() {
       delay(550);
       return;
     }
-    digitalWrite(BUZZER, HIGH);
+
     if ( ! mfrc522.PICC_ReadCardSerial()) {
       digitalWrite(BUZZER, LOW);
       delay(900);
@@ -167,7 +167,11 @@ void loop() {
     Serial.println();
     Serial.print("Publish message: ");
     Serial.println(msg1);
-    client.publish(mqtt_keywords1, msg1);
+    if((client.publish(mqtt_keywords1, msg1) == true) ){
+    ////digitalWrite(BUZZER, HIGH);
+    tone(BUZZER,3000,500);
+    delay(1000);
+    }
     msg[0] = char(0);
     delayMeas = true;
     digitalWrite(BUZZER, LOW);

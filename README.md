@@ -28,8 +28,8 @@
 ### 2. Mengkoneksikan microcontroller ke Wifi
 - Jika semua komponen telah dirakit sambungkan Microcontroller ke sumber listrik.
 - Di komputer atau smartphone 
-  > Buka wifi -> masuk ke wifi AbsensiRFID -> masukan password -> passwordnya (password).
+    > Buka wifi -> masuk ke wifi AbsensiRFID -> masukan password -> passwordnya (password).
 - Setelah itu
-  > Buka browser -> Input ip 192.168.4.1 -> Tekan Configure Wifi -> Pilih SSID Wifi yang akan digunakan -> masukan password wifi -> Save.
+    > Buka browser -> Input ip 192.168.4.1 -> Tekan Configure Wifi -> Pilih SSID Wifi yang akan digunakan -> masukan password wifi -> Save.
 - Jika sudah bersuara beep wifi sudah terhubung.
 - Jika suara beep bersuara terus menerus wifi terhubung namun tidak ada koneksi internet. **Jadi pastikan _wifi terhubung dengan internet_**.

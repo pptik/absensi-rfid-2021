@@ -4,11 +4,11 @@
 ### Software yang diperlukan : 
 - Arduino IDE (Terbaru).
 
-###Library Arduino IDE yang diperlukan:
+### Library Arduino IDE yang diperlukan:
 - ESP versi 2.4.1.
 - Dan Library yang ada di [Download Library]( https://github.com/pptik/absensi-rfid-2021/tree/main/Library).
 
-####Hardware yang digunakan: 
+#### Hardware yang digunakan: 
 - NodeMCU Amica ESP8288 / NodeMCU Lolin ESP8266.
 - Micro USB Data.
 

@@ -11,6 +11,7 @@
 #### Hardware yang digunakan: 
 - NodeMCU Amica ESP8288 / NodeMCU Lolin ESP8266.
 - Micro USB Data.
+- RFID-RC522
 
 ### 1. Untuk menginstall ikuti langkah berikut: 
 - Buka Arduino IDE.
